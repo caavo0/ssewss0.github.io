@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Test Sitem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .box {
+            background: #1f1f1f;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(255,255,255,0.1);
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            background: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Merhaba 👋</h1>
+        <p>Bu benim telefondan yaptığım ilk web sitesi.</p>
+        <button onclick="mesaj()">Tıkla</button>
+    </div>
+
+    <script>
+        function mesaj() {
+            alert("Buton çalışıyor!");
+        }
+    </script>
+</body>
+</html>
